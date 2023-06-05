@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="To_do_list.js"></script>   
+    <link href="To_do_list.css" rel="stylesheet">
+
+</head>
+<body onload="startTime()">
+    
+    <div class="list" >
+        <h1 > To Do List </h1>
+        <p> Inon Elgabsi and Or Orbach WEB</p>
+        <div class="design_task"> 
+        <input type="text" id="new_task" placeholder="New Task" >
+        <button onclick="Add_Item()" class="b1" >Add</button> 
+        <button onclick="Clear()" class="b1">ClearAll</button> 
+        </div>
+        <ol id ="list"></ol>
+        <center>
+            <div id="txt"></div>
+            
+        </center>
+    </div>
+    
+</body>
+</html>
+
